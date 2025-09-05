@@ -15,7 +15,7 @@ const upload = multer();
 
 
 app.use(cors({
-    origin : 'http://localhost:5173',
+    origin : 'https://teler.netlify.app',
     credentials : true
 }))
 
